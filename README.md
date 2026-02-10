@@ -4,7 +4,12 @@ I wanted to use just one tool to see attachments of emails instead of using mail
 
 ## Setup
 
-1. Clone this sample laravel project
+1. Clone laravel telescope with the changes (so we can symlink it)
+
+```git clone git@github.com:monteiro/telescope.git```
+```git checkout issue-440-attachments```
+
+2. Clone this sample laravel project so we can symlink it with my fork
 
 ```git clone git@github.com:monteiro/telescope-add-attachments.git``` 
 
@@ -13,7 +18,7 @@ npm install
 npm run build
 ```
 
-6. Start the server:
+3. Start the server:
 
 ```bash
 composer run dev
